@@ -41,8 +41,7 @@ export default (options: ViteGitRevisionPlugin): Plugin => {
           config.define.__APP_GIT_VERSION__ = JSON.stringify(runGitCommand(options.gitWorkTree,options.versionCommand))
           config.define.__APP_GIT_BRANCH__ = JSON.stringify(runGitCommand(options.gitWorkTree,options.branchCommand))
           config.define.__APP_GIT_HASH__ = JSON.stringify(runGitCommand(options.gitWorkTree,options.commithashCommand))
-          console.log(config.define)
-      
+        
         }
     };
   };

@@ -571,10 +571,9 @@ util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.nlark.com/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vite-plugin-git-revision@0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/vite-plugin-git-revision/-/vite-plugin-git-revision-0.1.6.tgz#ebb1956d4f91a947b205a127a33e5bd7bbcf7f35"
-  integrity sha512-6XfNcT81/Kb/maKFC1A9mzUlb913ce8uUAGSwXYZeRs4dnwroi+047EkgWxuyEvXIaKgJpqWZbxWlFO/tpTGcQ==
+"vite-plugin-git-revision@git+ssh://git@github.com:mrsunshine/vite-plugin-git-revision.git":
+  version "0.1.8"
+  resolved "git+ssh://git@github.com:mrsunshine/vite-plugin-git-revision.git#e8b3e45652b0b1207debc282b5c20cc5e6ca4a3c"
 
 vite@^2.1.5:
   version "2.2.1"
